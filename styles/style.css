@@ -1,11 +1,12 @@
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    justify-items: start;
+    justify-items: start; 
     align-items: center;
     padding: 92px 50px;
     margin: auto;
     max-width: 1440px;
+    min-height: 109px;
 }
 
 .header__menu {
@@ -26,15 +27,25 @@
 
 .header__link {
     text-decoration: none;
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header__links-list-item {
-    text-indent: 10px;
+    text-indent: 2px; 
 }
 
 .header__logo {
+    display: block;
+}
+
+.header__logo-image {
     height: 105px;
-    width: 145px;
+    width: 148px;
 }
 
 .adress {
@@ -74,7 +85,7 @@
     display: grid; 
     position: relative;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -136,7 +147,7 @@
     border: 1px solid currentColor;
     color: #FFF;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
